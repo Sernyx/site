@@ -2,6 +2,16 @@ body {
 background-color: #b1b8e2;
 }
 
+.menu {
+list-style-type: none
+}
+
+.tth {
+color:#005500;
+font-style: none;
+font-weight: 500;
+}
+
 a {
 color: #003ec4;
 font-family: 'Century', sans-serif
@@ -28,7 +38,54 @@ color:black;
 font-family: 'Segoe UI'
 }
 
-p {
-font-family: sans-serif
+h2 {
+color:black;
+font-weight: 400
 }
 
+h4 {
+color:black;
+font-style: italic 
+}
+
+input {
+    font: 15px;
+    color:#473e25;
+    font-style: bold
+}
+
+textarea {
+    font: 15px;
+    color:#473e25;
+    font-style: bold
+}
+
+#name {
+    width: 300px;
+    font: 15px;
+    color:#473e25
+}
+
+#email {
+    width: 300px;
+    font: 15px;
+    color:#473e25
+}
+
+#phone {
+    width: 300px;
+    font: 15px;
+    color:#473e25
+}
+
+#subj {
+    width: 300px;
+    font: 15px;
+    color:#473e25
+}
+
+#msg {
+    width: 300px;
+    font: 15px;
+    color:#473e25
+}

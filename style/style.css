@@ -12,6 +12,10 @@ font-style: none;
 font-weight: 500;
 }
 
+.header a:hover{
+    color: #00f7ff
+}
+
 a {
 color: #003ec4;
 font-family: 'Century', sans-serif
@@ -21,16 +25,11 @@ a:visited {
     color: #031474
 }
 
-a:hover:link {
-    color: #4c85db
-}
-
-a:hover:visited {
-    color: #3a5981
-}
-
 footer {
-    font-family: 'Georgia'
+    font-family: 'Georgia';
+    position: fixed;
+    bottom: 0;
+    width: 100%
 }
 
 h1 {
@@ -49,43 +48,45 @@ font-style: italic
 }
 
 input {
-    font: 15px;
+    font-size: 15px;
     color:#473e25;
     font-style: bold
 }
 
 textarea {
-    font: 15px;
-    color:#473e25;
+    font-size: 15px;
+    color:#d0ff00;
     font-style: bold
 }
 
 #name {
     width: 300px;
-    font: 15px;
+    font-size: 15px;
     color:#473e25
 }
 
-#email {
+#email:focus {
     width: 300px;
-    font: 15px;
-    color:#473e25
+    font-size: 15px;
+    color:#ffbb00;
+    background-color: #040683
 }
 
 #phone {
     width: 300px;
-    font: 15px;
+    font-size: 15px;
     color:#473e25
 }
 
 #subj {
     width: 300px;
-    font: 15px;
+    font-size: 15px;
     color:#473e25
 }
 
 #msg {
     width: 300px;
-    font: 15px;
-    color:#473e25
+    font-size: 15px;
+    color:#9eb82b;
+    text-transform: capitalize;
 }

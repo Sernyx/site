@@ -1,35 +1,69 @@
 body {
-background-color: #b1b8e2;
+    background-color: #b1b8e2;
 }
 
 .menu {
-list-style-type: none
+    list-style-type: none
 }
 
+.menu a {
+    color: #003ec4;
+    font-family: 'Century', sans-serif
+}
+
+.menu a:visited {
+    color: #031474
+}
 .tth {
-color:#005500;
-font-style: none;
-font-weight: 500;
+    color:#005500;
+    font-style: none;
+    font-weight: 500;
 }
 
+.header {
+    height: auto;
+    text-align: right;
+}
+
+.header li {
+    display:inline-block;
+    padding:1rem
+}
 .header a:hover{
     color: #00f7ff
 }
 
-a {
-color: #003ec4;
-font-family: 'Century', sans-serif
+.logo {
+    width: 50%;
+    margin-right: 25%;
 }
 
-a:visited {
-    color: #031474
-}
-
-footer {
+.footer {
+    height: 100px;
+    background-color: #0400ff57;
     font-family: 'Georgia';
-    position: fixed;
-    bottom: 0;
+    text-align:right;
     width: 100%
+}
+
+.ftr{
+    margin-right: 30px;
+    margin: 30px;
+}
+
+.desc img{
+    width:30%;
+    float:left;
+    margin-right: 30px;
+}
+
+.item ul {
+    list-style-type: none;
+}
+
+.item li {
+    display: inline-block;
+    padding: 4rem
 }
 
 h1 {
@@ -50,13 +84,27 @@ font-style: italic
 input {
     font-size: 15px;
     color:#473e25;
-    font-style: bold
 }
 
 textarea {
     font-size: 15px;
     color:#d0ff00;
-    font-style: bold
+    font-style:oblique
+}
+
+#buy {
+    color:#4af0ff;
+    background-color:#5b5dbd;
+}
+
+#buy:hover {
+    color:#00eaff;
+    background-color:#3b3db9;
+}
+
+#buy:focus {
+    color:#84f5ff;
+    background-color:#0105fd;
 }
 
 #name {
@@ -89,4 +137,5 @@ textarea {
     font-size: 15px;
     color:#9eb82b;
     text-transform: capitalize;
+    font-style: oblique;
 }
